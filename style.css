@@ -9,6 +9,7 @@ body{
 }
 .sayfa {
     display: block;
+    padding: 15px;
     width: 960px;
     margin: 0px auto;
     background: #fff; 
@@ -63,6 +64,9 @@ body{
 }
 .yazi {
     width: 300px;
+    min-height: 380px;
+    padding: 15px 8px;
+    box-sizing: border-box;
     float: left;
     background-color: powderblue;
     color: black;
