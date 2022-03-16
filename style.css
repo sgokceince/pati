@@ -1,0 +1,107 @@
+body,h1 {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image:url(img/arkaplan..webp); 
+    background-repeat : repeat;
+    
+}
+.sayfa {
+    display: block;
+    width: 960px;
+    margin: 0px auto;
+    background: #fff; 
+    height: 100vh;
+}
+#logo {
+    float: left;
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-left: 10px;
+    
+}
+#logo-image {
+    width: 50%;
+    border-radius: 100%;
+    position: relative;
+    left: 20px;
+    border: 2px solid pink;
+}
+#menu {
+    float: left;
+    list-style: none;
+    
+}
+#menu li {
+    float: left
+}
+#menu li a {
+    text-decoration: none;
+    color: black;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+#menu li a :hover {
+    background-color: purple;
+    border-radius: 10px;
+}
+#içerik {
+    background: #fff;
+}
+#galeri img {
+    height: 300px;
+    width: 940px;
+    margin: 10px 10px;
+    border: 2px solid black;
+    padding: 1px;
+}
+.yazi {
+    width: 300px;
+    float: left;
+    background-color: #fff;
+    color: black;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+.yazi h1 {
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+}
+
+.yazi p {
+    font-size: 16px;
+    text-indent: 20px;
+    text-align: justify;
+    margin: 10px;
+
+}
+
+.temizle {
+    clear: both;
+}
+
+#form-genel {
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    background: #3a2ea7;
+    padding: 60px 20px 60px 20px;
+    box-sizing: border-box;
+
+}
+
+#gender-search {
+    display: block;
+    width: 40%;
+    height: 30px;
+    background: white;
+    border-radius: 8px;
+    padding: 8px;
+}
